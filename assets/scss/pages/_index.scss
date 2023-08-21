@@ -9,9 +9,7 @@
   
 }
 
-.scene__area {
-  position: relative;
-}
+
 
 .hero_Home {
   display: flex;
@@ -26,6 +24,13 @@
       height: 396px;        
   }
 
+}
+
+.scene__area {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .hero_Home h1 {
@@ -50,7 +55,7 @@
 .cta_Hero {
   padding: 6px 12px;
   font-size: 20px;
-  position: absolute;
+  position: relative;
   right: 0;
 }
 
