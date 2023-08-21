@@ -9,6 +9,9 @@
   
 }
 
+.scene__area {
+  position: relative;
+}
 
 .hero_Home {
   display: flex;
@@ -29,7 +32,6 @@
   position: relative;
   right: 0;
   text-align: right;
-
 }
 
 .hero_Home p {
