@@ -1,4 +1,153 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #a6a6a6;
+}
+
+.footer_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  padding-top: 48px;
+  padding-bottom: 32px;
+
+@media (max-width: 767px) {
+      flex-direction: row-reverse;
+      align-items: start;
+      padding-top: 24px;
+      padding-bottom: 24px;
+  }
+
+}
+
+.list_Group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+
+  @media (max-width: 767px) {
+      gap: 24px;
+  }
+
+@media (max-width: 767px) {
+      display: none;
+  }
+
+}
+
+.socialList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+
+  @media (max-width: 768px) {
+      gap: 16px;
+  }
+
+@media (max-width: 767px) {
+      gap: 8px;
+  }
+}
+
+.socialList-icon {
+  width: 48px;
+  height: 48px;
+
+  @media (max-width: 768px) {
+      width: 40px;
+      height: 40px;
+  }
+
+@media (max-width: 767px) {
+      width: 24px;
+      height: 24px;
+  }
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+
+@media (max-width: 767px) {
+      justify-content: space-between;
+      padding-top: 0;
+  }
+  
+}
+
+.contactInfo_icon {
+  margin-right: 20px;
+  font-size: 36px;
+
+ @media (max-width: 576px) {
+      margin-right: 10px;
+      font-size: 18px;
+  }
+
+}
+
+.contactInfo_List {
+  font-size: 36px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+
+@media (max-width: 767px) {
+      font-size: 16px;
+      line-height: 24px;
+  }
+}
+
+.copyright {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  @media (max-width: 768px) {
+      padding-top: 32px;
+      padding-bottom: 40px;
+  }
+
+@media (max-width: 767px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      padding-top: 16px;
+      padding-bottom: 24px;
+  }
+}
+
+.copyright ul {
+  display: flex;
+  gap: 48px;
+
+@media (max-width: 767px) {
+      flex-direction: column;
+      gap: 8px;
+  }    
 }

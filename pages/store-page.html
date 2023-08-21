@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1 shrink-to-fit=no" >
+    <title>week7-Parallax</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main>
+        <section id="store-page">
+            <div class="container-fluid pt-24 pb-20 pt-md-20 py-xs-10">
+                <div class="container">
+                    <div class="row">
+                        <div class="d-flex flex-column w-100">
+                            <h2 class="border-title  mb-8 mb-xs-6 text-black text-left text-bold px-3">門市據點</h2>
+                            <div class="d-flex flex-row pb-6 justify-content-start align-items-center px-3">
+                                <h5 class="selectTtile text-left">選擇分店</h5>
+                                <select id="storeDropdown" class="select-dropdown" name="store-dropdown">
+                                    <option value="">請選擇分店</option>
+                                    <optgroup label="台北市">
+                                        <option value="台北中山旗艦店" selected="">台北中山旗艦店</option>
+                                        <option value="台北綠園店">台北綠園店</option>
+                                    </optgroup>
+                                    <optgroup label="台中市">
+                                        <option value="台中清水旗艦店">台中清水旗艦店</option>
+                                    </optgroup>
+                                    <optgroup label="高雄市">
+                                        <option value="高雄中正形象店">高雄中正形象店</option>
+                                        <option value="高雄夢時代店">高雄夢時代店</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="storeSet">
+                                <div class="col-5 col-md-12 col-xs-12 px-3 storeLeft">
+                                    <img src="../assets/images/storepage-1.png" alt="台北中山旗艦店" class="col-md-6 col-xs-12 me-md-6">
+                                    <div class="col-md-6 col-xs-12 border-2 storeInfo">
+                                        <h5 class="text-left pt-2 pb-2 px-6 border-bottom-2">台北中山旗艦店</h5>
+                                        <li class="text-left pb-2 pt-4 px-6 lh-2 d-flex align-items-center"><span class="material-symbols-outlined me-3">call</span>電話：(02)000-1234</li>
+                                        <li class="text-left pb-2 px-6 lh-2 d-flex align-items-center"><span class="material-symbols-outlined me-3">schedule</span>營業時間：10:00-21:00</li>
+                                        <li class="text-left pb-4 px-6 lh-2 d-flex align-items-center"><span class="material-symbols-outlined me-3">location_on</span>地址：台北市中山區南京東路25巷2-1號</li>     
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-12 col-xs-12 px-3">
+                                    <div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7228.884411152474!2d121.53506700000001!3d25.052997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abdf92494d29%3A0xd908a8a881f73476!2zMTA0OTHlj7DljJfluILkuK3lsbHljYDljZfkuqzmnbHot6_kuInmrrUyNeiZnw!5e0!3m2!1szh-TW!2stw!4v1691664857021!5m2!1szh-TW!2stw' width='100%' height='auto' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>   
+            </div>
+        </section>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

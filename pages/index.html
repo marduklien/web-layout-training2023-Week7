@@ -1,19 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-  </head>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1 shrink-to-fit=no" >
+    <title>week7-Parallax</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+    <main>
+      <section id="home">
+          <div class="container-fluid banner_Home">
+              <div class="container">
+                  <div class="row">
+                      <div class="hero_Home">
+                        <div id="scene">
+                            <p class="text-darkred" data-depth="0.2">Promise-Desert 2020 早春系列</p>
+                            <h1 class="text-darkred text-bold" data-depth="0.4">看得清，才能看得遠</h1>
+                            <a href="#" class="cta_Hero text-white bg-primary" data-depth="0.6">立即購買</a>  
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <section id="section2">
+          <div class="container-fluid introduce py-20 py-xs-10 bg-pink">
+              <h2 class="pb-9 pb-xs-8 text-darkred text-center text-bold">用專業的心，做專業的事</h2>
+              <div class="container">
+                  <div class="row">
+                          <ul class="card_List">
+                              <li class="col-3 col-md-6 col-sm-10 col-xs-12 px-3 mb-md-9" data-aos="fade-up">
+                                  <div class="card_body">
+                                      <div class="card_icon pb-6"><img src="../assets/images/home-section2-1.png" alt="單一價格"></div>
+                                      <h5 class="pb-2 text-darkred text-center text-bold">單一價格</h5>
+                                      <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>                                
+                                  </div>
+                              </li>
+                              <li class="col-3 col-md-6 col-xs-12 px-3 mb-md-9" data-aos="fade-up">
+                                  <div class="card_body">
+                                      <div class="card_icon pb-6"> <img src="../assets/images/home-section2-2.png" alt="20 分鐘即可取件"></div>
+                                      <h5 class="pb-2 text-darkred text-center text-bold">20 分鐘即可取件</h5>
+                                      <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+                                  </div>
+                              </li>
+                              <li class="col-3 col-md-6 col-xs-12 px-3 xs-md-6" data-aos="fade-up">
+                                  <div class="card_body">
+                                      <div class="card_icon pb-6"><img src="../assets/images/home-section2-3.png" alt="安心售後服務"></div>
+                                      <h5 class="pb-2 text-darkred text-center text-bold">安心售後服務</h5>
+                                      <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+                                  </div>
+                              </li>
+                              <li class="col-3 col-md-6 col-xs-12 px-3" data-aos="fade-up">
+                                  <div class="card_body">
+                                      <div class="card_icon pb-6"><img src="../assets/images/home-sectioin2-4.png" alt="關於鏡片"> </div>
+                                      <h5 class="pb-2 text-darkred text-center text-bold">關於鏡片</h5>
+                                      <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+              </div>   
+          </div>
+      </section>
+  
+      <section id="section3">
+          <div class="container-fluid py-20 py-xs-10 classic_frame">
+              <h2 class="pb-12 pb-xs-6 text-darkred text-center text-bold">經典系列鏡框</h2>
+              <div class="container">
+                  <div class="row">
+                          <ul class="frame_Group">
+                              <li class="col-4 col-md-6 col-sm-12 col-xs-12 px-3 mb-md-6" data-aos="flip-left">
+                                  <div class="frame_body">
+                                      <div class="frame_photo pb-2"><img src="../assets/images/home-section3-1.png" alt="OPTICAL"></div>
+                                      <h2 class="text-primary text-center text-italic text-bold text-italic">OPTICAL</h2>
+                                  </div>
+                              </li>
+                              <li class="col-4 col-md-6 col-sm-12 col-xs-12 px-3 mb-md-6" data-aos="flip-left">
+                                  <div class="frame_body">
+                                      <div class="frame_photo pb-2"> <img src="../assets/images/home-section3-2.png" alt="SUNGLASSES"></div>
+                                      <h2 class="text-primary text-center text-italic text-bold text-italic">SUNGLASSES</h2>
+                                  </div>
+                              </li>
+                              <li class="col-4 col-md-6 col-sm-12 col-xs-12 px-3" data-aos="flip-left">
+                                  <div class="frame_body">
+                                      <div class="frame_photo pb-2"><img src="../assets/images/home-section3-3.png" alt="FUNCTIONAL"></div>
+                                      <h2 class="text-primary text-center text-italic text-bold text-italic">FUNCTIONAL</h2>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+              </div>   
+          </div>
+      </section>
+  
+      <section id="section4">
+          <div class="container-fluid py-20 py-xs-10 branding_frame">
+              <h2 class="pb-12 pb-xs-6 text-white text-center text-bold">聯名設計鏡框</h2>
+              <div class="container">
+                  <div class="row">
+                          <ul class="branding_Group flex-wrap">
+                              <li class="col-6 col-md-12 col-xs-12 px-3" data-aos="fade-right">
+                                  <div class="frame_body">
+                                      <div class="branding_Photo"><img src="../assets/images/home-section4-1.png" alt="OPTICAL"></div>
+                                      <h2 class="text-primary text-center text-italic text-bold text-italic d-block bg-white w-100">DOUBLE A+</h2>
+                                  </div>
+                              </li>
+                              <li class="col-6 col-md-12 col-xs-12 px-3" data-aos="fade-left">
+                                  <div class="frame_body">
+                                      <div class="branding_Photo"> <img src="../assets/images/home-section4-2.png" alt="SUNGLASSES"></div>
+                                      <h2 class="text-primary text-center text-italic text-bold text-italic d-block bg-white w-100">YOUTH</h2>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+              </div>   
+          </div>
+      </section>
+  
+      <section id="section5">
+          <div class="container-fluid py-20 py-xs-10 customer">
+              <h2 class="pb-12 pb-xs-6 text-darkred text-center text-bold">顧客推薦</h2>
+              <div class="container">
+                  <div class="row">
+                          <ul class="customer_Group">
+                              <li class="col-3 col-md-6 col-xs-12 px-3 mb-md-6" data-aos="fade-down">
+                                  <div class="customer_body">
+                                      <div class="customer_photo"><img src="../assets/images/home-section5-1.png" alt="Jessy"></div>
+                                      <div class="customer_content">
+                                          <p class="customer_name text-left">Jessy</p>
+                                          <p class="customer_message pb-12 pb-xs-6 text-left">眼鏡品質優良，下次還會想來這邊購買！</p>     
+                                          <span class="customer_Date text-gray"><time>2021/06/20</time></span>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="col-3 col-md-6 col-xs-12 px-3 mb-md-6" data-aos="fade-down">
+                                  <div class="customer_body">
+                                      <div class="customer_photo"> <img src="../assets/images/home-section5-2.png" alt="凱倫"></div>
+                                      <div class="customer_content">
+                                          <p class="customer_name text-left">凱倫</p>
+                                          <p class="customer_message pb-12 pb-xs-6 text-left">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+                                          <span class="customer_Date text-gray"><time pubdate>2021/04/18</time></span> 
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="col-3 col-md-6 col-xs-12 px-3 xs-md-6" data-aos="fade-down">
+                                  <div class="customer_body">
+                                      <div class="customer_photo"><img src="../assets/images/home-section5-3.png" alt="悠悠"></div>
+                                      <div class="customer_content">
+                                          <p class="customer_name text-left">悠悠</p>
+                                          <p class="customer_message pb-12 pb-xs-6 text-left">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+                                          <span class="customer_Date text-gray"><time pubdate>2020/12/25</time></span> 
+                                      </div>                          
+                                  </div>
+                              </li>
+                              <li class="col-3 col-md-6 col-xs-12 px-3" data-aos="fade-down">
+                                  <div class="customer_body">
+                                      <div class="customer_photo"><img src="../assets/images/home-section5-4.png" alt="Kyuan"></div>
+                                      <div class="customer_content">
+                                          <p class="customer_name text-left">Kyuan</p>
+                                          <p class="customer_message pb-12 pb-xs-6 text-left">服務很好，品質沒有任何問題，非常喜歡。</p>
+                                          <span class="customer_Date text-gray"><time pubdate>2020/10/31</time></span>   
+                                     </div>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+              </div>   
+          </div>
+      </section>
+  
+      <section id="contact">
+          <div class="container-fluid py-20 py-xs-10 bg-pink">
+              <h2 class="pb-12 pb-xs-6 text-darkred text-center text-bold">聯絡我們</h2>
+              <div class="container">
+                  <div class="row">
+                      <div class="d-flex flex-column col-6 col-md-10 col-xs-12 px-3 mx-auto" data-aos="fade-up">
+                          <form>
+                              <p class="pb-6">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+                              <div class="d-flex flex-column mb-4">
+                                  <label for="name" class="mb-2">姓名</label>
+                                  <input class="py-1 ps-3 bg-transparent border-1" type="text" id="name" placeholder="陳小明">
+                              </div>
+                              <div class="d-flex flex-column mb-4">
+                                  <label for="phone" class="mb-2">聯絡電話</label>
+                                  <input class="py-1 ps-3 bg-transparent border-1 font-roboto" type="tel" id="phone" placeholder="0912-345-678">
+                              </div>
+                              <div class="d-flex flex-column mb-4">
+                                  <label for="email" class="mb-2">電子郵件</label>
+                                  <input class="py-1 ps-3 bg-transparent border-1 font-roboto" type="email" id="email" placeholder="example@email.com">
+                              </div>
+                              <div class="d-flex flex-column mb-4">
+                                  <label for="suggest" class="mb-2 ">意見反應</label>
+                                  <textarea placeholder="請輸入您的意見" class="pt-1 ps-3 suggest bg-transparent border-1" name="suggest" id="suggest" cols="30" rows="10"></textarea>
+                              </div>
+                              <div class="d-flex pb-12 pb-xs-6 check_arera">
+                                  <input type="checkbox" id="checkPrivacy" class="form-checkbox bg-transparent border-1">
+                                  <label for="checkPrivacy" class="ps-1">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+                              </div>
+                              <a href="#" class="submit col-4 col-xs-12 d-block text-center py-4 align-self-center mx-auto text-white bg-primary">確認送出</a>
+                          </form>
+                      </div>
+                  </div>
+              </div>   
+          </div>
+      </section>
+    </main>
 
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="../assets/js/parallax.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
   </body>
 </html>

@@ -1,0 +1,196 @@
+@media(max-width: 768px){
+  .productNav {
+      max-width: 100% !important;
+      padding: 0;
+  }
+
+  .storeInfo li:last-child {
+      align-items:flex-start
+  }
+
+}
+
+
+.banner_product_1 {
+  background-image: url(../images/product-header-1.png);
+  height: 296px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  @media(max-width: 768px){
+      background-image: url(../images/product-header-sm-1.png);
+  }
+
+  @media(max-width: 576px){
+      height: 136px;
+  }
+
+  
+}
+
+.banner_product_2 {
+  background-image: url(../images/product-header-2.png);
+  height: 296px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  @media(max-width: 768px){
+      background-image: url(../images/product-header-sm-2.png);
+  }
+
+  @media(max-width: 576px){
+      height: 136px;
+  }
+  
+}
+
+.banner_product_3 {
+  background-image: url(../images/product-header-3.png);
+  height: 296px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  @media(max-width: 768px){
+      background-image: url(../images/product-header-sm-3.png);
+  }
+
+  @media(max-width: 576px){
+      height: 136px;
+  }
+  
+}
+
+.banner_product_4 {
+  background-image: url(../images/product-header-4.png);
+  height: 296px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  @media(max-width: 768px){
+      background-image: url(../images/product-header-sm-4.png);
+  }
+
+  @media(max-width: 576px){
+      height: 136px;
+  }
+  
+}
+
+.productTitle {
+
+  @media (max-width: 576px)  {
+      font-size: 24px;
+      line-height: 36px;
+  }
+
+}
+
+
+.productSubTitle {
+  @media (max-width: 576px)  {
+      font-size: 24px;
+      line-height: 36px; 
+  }
+}
+
+
+.color a{
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color a:hover {
+  opacity: 0.7;
+}
+
+.bg-brown {
+  background-color: $brown;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+/* Style the tab */
+/* https://www.w3schools.com/howto/howto_js_tabs.asp */
+
+.tab {
+overflow: hidden;
+}  
+
+/* Style the buttons inside the tab */
+.tab a {
+border: none;
+outline: none;
+cursor: pointer;
+/* transition: 0.3s; */
+font-size: 32px;
+line-height: 48px;
+border: 1px solid #DCDCDC;
+
+@media(max-width: 768px){
+  font-size: 24px;
+  line-height: 36px;  
+}
+
+@media(max-width: 576px){
+font-size: 16px;
+ line-height: 24px;  
+ padding: 16px 12px;
+}
+
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+color: #FFF;
+background-color: #AA0601;
+border: 1px solid #AA0601;
+/* border-bottom: 8px solid #AA0601; */
+}
+
+/* Create an active/current tablink class */
+.tab a.active {
+border-bottom: 8px solid #AA0601;
+}
+
+
+/* pagination */
+/* https://www.w3schools.com/howto/howto_css_pagination.asp */
+
+/* Pagination links */
+.pagination a {
+  color: #555;
+  float: left;
+  padding: 12px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #555;
+  font-size: 18px;
+  line-height: 27px;
+
+  @media (max-width: 576px) {
+      font-size: 16px;
+      line-height: 24px;  
+      padding: 12px 15px;
+  }
+
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: #000;
+  color: #FFF;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+  color:#FFF;
+  background-color: #000;
+}
