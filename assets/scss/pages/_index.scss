@@ -34,17 +34,18 @@
 }
 
 .hero_Home h1 {
-  position: relative;
-  right: 0;
+  position: relative !important;
+  right: 0 !important;;
+  top: 0% !important;
   text-align: right;
 }
 
 .hero_Home p {
   font-size: 36px;
   line-height: 54px;
-  position: relative;
-  right: 0;
-  text-align: right;
+  position: relative !important;
+  right: 0 !important;;
+  top: 0% !important;
 
   @media (max-width: 576px) {
       font-size: 16px;
@@ -55,8 +56,9 @@
 .cta_Hero {
   padding: 6px 12px;
   font-size: 20px;
-  position: relative;
-  right: 0;
+  position: relative !important;
+  right: 0 !important;;
+  top: 0% !important;
 }
 
 .cta_Hero:hover {
