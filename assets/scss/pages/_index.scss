@@ -26,26 +26,26 @@
 
 }
 
-// .scene__area {
-//   position: relative;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: flex-end;
-// }
+.scene__area {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
 .hero_Home h1 {
-  // position: relative !important;
-  // right: 0 !important;;
-  // top: 0% !important;
-  // text-align: right;
+  position: relative !important;
+  right: 0 !important;;
+  top: 0% !important;
+  text-align: right;
 }
 
 .hero_Home p {
   font-size: 36px;
   line-height: 54px;
-  // position: relative !important;
-  // right: 0 !important;;
-  // top: 0% !important;
+  position: relative !important;
+  right: 0 !important;;
+  top: 0% !important;
 
   @media (max-width: 576px) {
       font-size: 16px;
@@ -56,9 +56,10 @@
 .cta_Hero {
   padding: 6px 12px;
   font-size: 20px;
-  // position: relative !important;
-  // right: 0 !important;;
-  // top: 0% !important;
+  position: relative !important;
+  right: 0 !important;;
+  top: 0% !important;
+  width: 104px;
 }
 
 .cta_Hero:hover {
