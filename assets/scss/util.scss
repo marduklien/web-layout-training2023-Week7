@@ -268,6 +268,34 @@ font-family: "Roboto";
     gap: 24px;
 }
 
+@media (max-width: 992px) {
+
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.333333%;
+    }
+
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .col-lg-10 {
+        flex: 0 0 auto;
+        width: 83.333333%;
+    }
+
+    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+
 @media (max-width: 768px) {
 
     .col-md-6 {
